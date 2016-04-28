@@ -33,7 +33,7 @@ int main()
     cout << "1 = yes, 0 = no" << endl;
     cout << "Is the int array sorted? " << isSorted(list1, 5) << endl;
     cout << "Is the double array sorted? " << isSorted(list2, 3) << endl;
-    cout << "Is the string list sorted? " << isSorted(list3, 4) << endl;
+    cout << "Is the string list sorted? " << isSorted(list3, 4) << endl;  // Joseph: It is breaking here. Don't know why
     
     return 0;
 }
